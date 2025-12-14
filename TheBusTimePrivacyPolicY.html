@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bus Time - Privacy Policy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a2980, #26d0ce);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .logo-main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .app-logo-container {
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(135deg, #1a2980, #26d0ce);
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 25px rgba(26, 41, 128, 0.3);
+            border: 5px solid white;
+        }
+
+        .app-logo {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+        }
+
+        .logo-placeholder {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            color: #1a2980;
+        }
+
+        .header-content h1 {
+            color: #1a2980;
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header-content .subtitle {
+            color: #26d0ce;
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        .last-updated {
+            background-color: #f0f8ff;
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 25px;
+            margin-top: 10px;
+            font-weight: 500;
+            color: #1a2980;
+            border: 1px solid #d1e8ff;
+        }
+
+        /* Main Content */
+        .privacy-policy {
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Policy Content Styles */
+        .policy-section {
+            margin-bottom: 30px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .policy-section:last-child {
+            border-bottom: none;
+        }
+
+        .section-title {
+            color: #1a2980;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #26d0ce;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title i {
+            color: #26d0ce;
+        }
+
+        .info-item {
+            margin-bottom: 12px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .info-item:before {
+            content: "•";
+            color: #26d0ce;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .highlight {
+            background-color: #f0f8ff;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #26d0ce;
+            margin: 15px 0;
+        }
+
+        /* Security Badge */
+        .security-badge {
+            background: linear-gradient(to right, #1a2980, #26d0ce);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 30px 0;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(26, 41, 128, 0.2);
+        }
+
+        .security-title {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .security-features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .security-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background-color: rgba(255, 255, 255, 0.15);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background: linear-gradient(to right, #1a2980, #26d0ce);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .contact-title {
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: rgba(255, 255, 255, 0.15);
+            padding: 12px 20px;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+        }
+
+        .company-name {
+            font-weight: bold;
+            color: white;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content h1 {
+                font-size: 2.2rem;
+            }
+            
+            .app-logo-container {
+                width: 120px;
+                height: 120px;
+            }
+            
+            .app-logo, .logo-placeholder {
+                width: 80px;
+                height: 80px;
+            }
+            
+            .security-features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-main-container">
+                
+                
+                <div class="header-content">
+                    <h1>The Bus Time</h1>
+                    <p class="subtitle">Privacy Policy</p>
+                    <p class="tagline">Your Safety, Our Priority • Secure & Transparent</p>
+                    <div class="last-updated">Last Updated: Dec-2025</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Privacy Policy Content -->
+        <section class="privacy-policy">
+            <div class="policy-section">
+                <h2 class="section-title"><i class="fas fa-info-circle"></i> 1. Information We Collect</h2>
+                <h3 style="color: #1a2980; margin: 15px 0 10px 0;">Personal Information</h3>
+                <div class="info-item">Name</div>
+                <div class="info-item">Phone number</div>
+                <div class="info-item">Email address</div>
+                <div class="info-item">User role (School, Driver, Parent)</div>
+                
+                <h3 style="color: #1a2980; margin: 15px 0 10px 0;">Location Information</h3>
+                <div class="info-item">Live GPS location of drivers (only while on duty)</div>
+                <div class="info-item">Used strictly for bus tracking and safety purposes</div>
+                
+                <h3 style="color: #1a2980; margin: 15px 0 10px 0;">Usage Information</h3>
+                <div class="info-item">Login activity</div>
+                <div class="info-item">Feature usage for performance improvement and support</div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title"><i class="fas fa-cogs"></i> 2. How We Use Information</h2>
+                <div class="info-item">Provide live bus tracking services</div>
+                <div class="info-item">Manage user accounts and permissions</div>
+                <div class="info-item">Improve app functionality and reliability</div>
+                <div class="info-item">Send important alerts and notifications</div>
+                <div class="info-item">Ensure safety and operational efficiency</div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title"><i class="fas fa-share-alt"></i> 3. Data Sharing</h2>
+                <div class="highlight">
+                    <strong>We do not sell, trade, or rent user data.</strong>
+                </div>
+                <div class="info-item">Between schools, drivers, and parents as required for service delivery</div>
+                <div class="info-item">With trusted services such as Firebase for authentication and storage</div>
+                <div class="info-item">When required by law or legal authorities</div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title"><i class="fas fa-shield-alt"></i> 4. Data Security</h2>
+                <div class="info-item">All data is stored securely using industry-standard security practices</div>
+                <div class="info-item">Firebase services are used for secure authentication and data storage</div>
+                <div class="info-item">Access to data is role-based and restricted</div>
+            </div>
+
+            <!-- Security Badge Section -->
+            <div class="security-badge">
+                <div class="security-title">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Enterprise-Grade Security</span>
+                </div>
+                <div class="security-features">
+                    <div class="security-item">
+                        <i class="fas fa-lock"></i>
+                        <span>Encrypted Data</span>
+                    </div>
+                    <div class="security-item">
+                        <i class="fas fa-user-shield"></i>
+                        <span>Role-Based Access</span>
+                    </div>
+                    <div class="security-item">
+                        <i class="fas fa-bell-slash"></i>
+                        <span>No Background Tracking</span>
+                    </div>
+                    <div class="security-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>GDPR Compliant</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title"><i class="fas fa-map-marker-alt"></i> 5. Location Data Usage</h2>
+                <div class="info-item">Location data is collected only during active duty hours</div>
+                <div class="info-item">Location is visible only to authorized users (school and parents)</div>
+                <div class="info-item">Location data is never used for advertising or background tracking</div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title"><i class="fas fa-child"></i> 6. Children's Privacy</h2>
+                <div class="info-item">Student data is managed by school authorities</div>
+                <div class="info-item">Parents can access only their own child's information</div>
+                <div class="info-item">We are committed to protecting children's privacy and safety</div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title"><i class="fas fa-user-check"></i> 7. User Rights</h2>
+                <div class="info-item">Request correction of their data</div>
+                <div class="info-item">Request account deletion</div>
+                <div class="info-item">Manage permissions from device settings</div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title"><i class="fas fa-database"></i> 8. Data Retention</h2>
+                <div class="info-item">Data is retained while the account remains active</div>
+                <div class="info-item">Inactive or deleted accounts may have data permanently removed</div>
+            </div>
+
+            <div class="policy-section">
+                <h2 class="section-title"><i class="fas fa-sync-alt"></i> 9. Policy Updates</h2>
+                <div class="info-item">This Privacy Policy may be updated periodically. Continued use of the app indicates acceptance of any changes.</div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <h3 class="contact-title"><i class="fas fa-headset"></i> 10. Contact Information</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>support@thebustime.in</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-building"></i>
+                    <span>CVaint Technologies</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-globe"></i>
+                    <span>www.thebustime.in</span>
+                </div>
+            </div>
+            <p style="margin-top: 20px; opacity: 0.9; font-size: 0.95rem;">
+                Have questions about our privacy practices? Contact our support team anytime!
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 <span class="company-name">The Bus Time</span>. All rights reserved.</p>
+            <p>Developed by CVaint Technologies | Privacy Policy Version 2.0</p>
+            <p style="margin-top: 10px; font-size: 0.8rem;">
+                <i class="fas fa-shield-alt"></i> Your Privacy is Protected | 
+                <i class="fas fa-heart"></i> Building Trust Since 2025 |
+                <i class="fas fa-check-circle"></i> 100% Secure
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Smooth scroll to sections
+        document.querySelectorAll('.section-title').forEach(title => {
+            title.style.cursor = 'pointer';
+            title.addEventListener('click', function() {
+                const section = this.parentElement;
+                section.scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+                
+                // Highlight effect
+                section.style.backgroundColor = '#f8fdff';
+                setTimeout(() => {
+                    section.style.backgroundColor = '';
+                }, 1000);
+            });
+        });
+        
+        // Logo click effect
+        const logoContainer = document.querySelector('.app-logo-container');
+        logoContainer.addEventListener('click', function() {
+            this.style.transform = 'scale(1.05)';
+            this.style.boxShadow = '0 15px 35px rgba(26, 41, 128, 0.4)';
+            
+            setTimeout(() => {
+                this.style.transform = '';
+                this.style.boxShadow = '0 10px 25px rgba(26, 41, 128, 0.3)';
+            }, 300);
+        });
+        
+        // Print functionality
+        const printBtn = document.createElement('button');
+        printBtn.innerHTML = '<i class="fas fa-print"></i> Print Policy';
+        printBtn.style.cssText = `
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: linear-gradient(to right, #1a2980, #26d0ce);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            z-index: 100;
+            font-weight: bold;
+        `;
+        
+        printBtn.addEventListener('click', () => window.print());
+        document.body.appendChild(printBtn);
+    </script>
+</body>
+</html>
